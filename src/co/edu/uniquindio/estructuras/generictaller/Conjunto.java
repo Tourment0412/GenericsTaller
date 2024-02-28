@@ -1,5 +1,9 @@
 package co.edu.uniquindio.estructuras.generictaller;
 
-public class Conjunto {
+import java.util.ArrayList;
 
+public class Conjunto <T> {
+	
+	
+	ArrayList<T> lista = new ArrayList<>();
 }
