@@ -14,7 +14,7 @@ public class Iterador<T> implements Iterator<T> {
 
 	@Override
 	public boolean hasNext() {
-		return index != lista.size();
+		return index < lista.size();
 	}
 
 	@Override
