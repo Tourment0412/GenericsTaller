@@ -6,7 +6,8 @@ import java.util.Iterator;
 public class Iterador<T> implements Iterator<T> {
 
 	private ArrayList<T> lista;
-	private int index;
+	//Puede llegar a ser -1 para que cuando se haga el primer next se devuelva el elemento 0
+	private int index=-1;
 
 	public Iterador(ArrayList<T> lista) {
 		this.lista = lista;
